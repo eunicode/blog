@@ -1,0 +1,10 @@
+/* Gatsby Tutorial 2: Introduction to Styling in Gatsby
+https://www.gatsbyjs.org/tutorial/part-two/ */
+
+/* Used with `container.js` file.
+`container.js` file gets used in `about-css-modules.js` */
+
+.container {
+  margin: 3rem auto;
+  max-width: 600px;
+}
