@@ -1,0 +1,34 @@
+/* Gatsby Tutorial 2: Introduction to Styling in Gatsby
+https://www.gatsbyjs.org/tutorial/part-two/ */
+
+/* GLOBAL STYLES WITH STANDARD CSS FILES + NO LAYOUT COMPONENT */
+
+html {
+  background-color: lavenderblush;
+}
+
+/* 
+GLOBAL STYLES WITH CSS FILES + NO LAYOUT COMPONENT
+
+This stylesheet, `global.css`, gets imported into `gatsby-browser.js`.
+This is the quickest and most straightforward way to get started styling a Gatsby site — 
+importing standard CSS files directly, using gatsby-browser.js. 
+In most cases, the best way to add global styles is with a shared layout component.
+
+SEE ALSO: `LAYOUT.CSS`
+
+We can have global styles
+We can have component-scoped CSS
+
+3 TYPES OF GLOBAL STYLES
+- CSS files + shared layout component
+- CSS-in-JS
+- CSS files + NO layout component
+
+My question, what's the difference btw global styles and the wrapPageElement 
+API / gatsby-plugin-layout? 
+Well, the wrapPageElement API sets a wrapper component around page components 
+that won't get unmounted on page changes. 
+global styles = global styles
+wrapPageElement = wrapper component 
+*/
