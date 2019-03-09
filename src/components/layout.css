@@ -1,0 +1,30 @@
+/* Creating global styles
+https://www.gatsbyjs.org/docs/creating-global-styles */
+
+/* 
+GLOBAL STYLES WITH CSS FILE + SHARED LAYOUT COMPONENT 
+
+- Layout.js
+- layout.css
+- index.js
+
+Add global styles with CSS file + shared layout component.
+The best way to add global styles is with a shared layout component.
+
+Create layout component.
+Create layout component stylesheet.
+In `src/components/layout.js`, import the CSS file, and export a layout component.
+
+Finally, update `src/pages/index.js` to use the new layout component.
+In `index.js`, import layout component from `layout.js`.
+
+3 TYPES OF GLOBAL STYLES
+- CSS files + shared layout component
+- CSS-in-JS
+- CSS files + NO layout component
+*/
+
+div {
+  background: red;
+  color: white;
+}

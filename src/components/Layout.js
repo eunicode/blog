@@ -1,7 +1,13 @@
+// Default import / default export
 import React from "react"
+
+// Named import / named export
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+
+// Global styles with CSS files + shared layout component
+import "./layout.css";
 
 class Layout extends React.Component {
   render() {
